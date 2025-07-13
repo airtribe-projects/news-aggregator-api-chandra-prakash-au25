@@ -1,0 +1,48 @@
+TAP version 14
+# Subtest: POST /users/signup
+    not ok 1 - test unfinished
+      ---
+      at:
+        fileName: test/server.test.js
+        lineNumber: 17
+        columnNumber: 5
+        typeName: Object
+      stack: |
+        Object.<anonymous> (test/server.test.js:17:5)
+      test: POST /users/signup
+      source: |
+        // Auth tests
+      
+        tap.test('POST /users/signup', async (t) => { 
+        ----^
+            const response = await server.post('/users/signup').send(mockUser);
+            t.equal(response.status, 200);
+      ...
+    
+    1..1
+not ok 1 - POST /users/signup # time=15.748ms
+  ---
+  at:
+    fileName: test/server.test.js
+    lineNumber: 17
+    columnNumber: 5
+    typeName: Object
+  source: |
+    // Auth tests
+  
+    tap.test('POST /users/signup', async (t) => { 
+    ----^
+        const response = await server.post('/users/signup').send(mockUser);
+        t.equal(response.status, 200);
+  ...
+
+not ok 2 - child test left in queue: POST /users/signup with missing email
+not ok 3 - child test left in queue: POST /users/login
+not ok 4 - child test left in queue: POST /users/login with wrong password
+not ok 5 - child test left in queue: GET /users/preferences
+not ok 6 - child test left in queue: GET /users/preferences without token
+not ok 7 - child test left in queue: PUT /users/preferences
+not ok 8 - child test left in queue: Check PUT /users/preferences
+not ok 9 - child test left in queue: GET /news
+not ok 10 - child test left in queue: GET /news without token
+1..10
