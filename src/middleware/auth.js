@@ -2,31 +2,59 @@ const jwt = require('jsonwebtoken');
 
 module.exports = (req, res, next) => {
   try {
-    // Check if token exists in cookies
+    if (!req.cookies) {
+      return res.status(401).json({ 
+        error: 'Authentication required',
+        details: 'No cookies found in request'
+      });
+    }
+    
     const token = req.cookies.token;
     if (!token) {
-      return res.status(401).json({ error: 'Authentication required' });
+      return res.status(401).json({ 
+        error: 'Authentication required', 
+        details: 'No auth token provided'
+      });
     }
 
-    // Verify token
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     
-    // Attach user ID to request
-    req.userId = decoded.userId;
-    console.log('Authenticated user ID:', decoded.userId);
+    if (!decoded.userId) {
+      return res.status(401).json({
+        error: 'Invalid token',
+        details: 'Token missing required user ID'
+      });
+    }
     
+    req.userId = decoded.userId;
     next();
   } catch (error) {
-    console.error('Authentication error:', error.message);
+    console.error('Authentication error:', {
+      message: error.message,
+      stack: error.stack,
+      timestamp: new Date().toISOString()
+    });
     
     if (error.name === 'JsonWebTokenError') {
-      return res.status(401).json({ error: 'Invalid token' });
+      return res.status(401).json({ 
+        error: 'Invalid token',
+        details: 'Token verification failed',
+        code: 'AUTH_INVALID_TOKEN'
+      });
     }
     
     if (error.name === 'TokenExpiredError') {
-      return res.status(401).json({ error: 'Token expired' });
+      return res.status(401).json({ 
+        error: 'Token expired',
+        details: 'Please login again',
+        code: 'AUTH_TOKEN_EXPIRED'
+      });
     }
     
-    res.status(401).json({ error: 'Authentication failed' });
+    res.status(401).json({
+      error: 'Authentication failed',
+      details: error.message,
+      code: 'AUTH_FAILURE'
+    });
   }
 };
