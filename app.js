@@ -4,7 +4,7 @@ const cors = require('cors');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 const authRoutes = require('./src/routes/auth.routes');
-require('dotenv').config();
+const newsRoutes = require('./src/routes/news.routes');
 
 const connectDB = require('./config/database');
 
@@ -41,6 +41,7 @@ app.use((err, req, res, next) => {
 
 
 app.use('/v1/auth', authRoutes);
+app.use('/v1/news', newsRoutes);
 app.listen(port, (err) => {
     if (err) {
         return console.log('Something bad happened', err);
