@@ -1,0 +1,247 @@
+{
+  "date": "2025-07-13T13:04:09.209Z",
+  "argv": [
+    "/usr/local/bin/node",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/test/server.test.js"
+  ],
+  "execArgv": [
+    "--import=file:///Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25",
+  "pid": 18789,
+  "ppid": 18769,
+  "parent": null,
+  "uuid": "f39c30c3-0a67-4075-aee5-ac32ea83c5da",
+  "files": [
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/test/server.test.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import-loader.mjs",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/mock-service.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/is-relative-require.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/export-line.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-all-exports.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-all-conditions.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/parse.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/errors.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/read-pkg.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-export.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/to-path.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/file-exists.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/find-dep-package.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/read-json.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/walk-up-path/dist/mjs/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/glob.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/has-magic.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/assert-valid-pattern.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/ast.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/escape.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/unescape.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/path-scurry/dist/mjs/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/pattern.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/walker.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/brace-expressions.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minipass/dist/esm/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/ignore.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/processor.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/loader.mjs",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/mock-service-client.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/app.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/routes/auth.routes.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/middleware/auth.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/controller/auth.controller.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/models/user.model.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/routes/news.routes.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/controller/news.controller.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/src/models/article.model.js",
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/config/database.js"
+  ],
+  "sources": {
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/import.mjs": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/src/import.mts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/mock-service.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/src/mock-service.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/is-relative-require.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/is-relative-require.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/export-line.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/src/export-line.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/munge-mocks.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/src/munge-mocks.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/src/resolve-mock-entry-point.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/dist/esm/service-key.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/mock/src/service-key.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/get-all-conditional-values.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-all-exports.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-all-exports.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/get-unique-condition-sets.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-all-local-imports.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-all-conditions.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/get-all-conditions.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-conditional-value.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-conditional-value.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-import.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-import.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/is-windows.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/@tapjs/stack/src/parse.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/errors.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/errors.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/get-named-exports-list.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/read-pkg.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/read-pkg.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-export.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/star-glob.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/star-glob.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/file-exists.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/find-dep-package.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/find-dep-package.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/to-file-url.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/resolve-package-import.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/resolve-import/src/find-star-match.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/walk-up-path/dist/mjs/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/walk-up-path/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/glob.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/glob.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/has-magic.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/has-magic.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/assert-valid-pattern.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/src/assert-valid-pattern.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/ast.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/src/ast.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/escape.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/src/escape.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/unescape.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/src/unescape.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/path-scurry/dist/mjs/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/path-scurry/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/pattern.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/pattern.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/walker.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/walker.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/dist/mjs/brace-expressions.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minimatch/src/brace-expressions.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minipass/dist/esm/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/minipass/src/index.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/ignore.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/ignore.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/dist/esm/processor.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/glob/src/processor.ts"
+    ],
+    "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js": [
+      "/Users/chandra/github-classroom/airtribe-projects/news-aggregator-api-chandra-prakash-au25/node_modules/path-scurry/node_modules/lru-cache/src/index.ts"
+    ]
+  },
+  "root": "f39c30c3-0a67-4075-aee5-ac32ea83c5da",
+  "externalID": "test/server.test.js",
+  "code": 0,
+  "signal": null,
+  "runtime": 913.292209
+}
