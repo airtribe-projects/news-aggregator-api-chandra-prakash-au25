@@ -3,7 +3,7 @@ const NewsAPI = require('newsapi');
 const NodeCache = require('node-cache');
 const Article = require('../models/article.model');
 
-const newsCache = new NodeCache({ stdTTL: 3600 }); // 1 hour cache
+const newsCache = new NodeCache({ stdTTL: 3600, checkperiod: 600 }); // 1 hour TTL, clean up every 10 minutes
 
 class NewsController {
   async getNews(req, res) {
@@ -101,6 +101,46 @@ class NewsController {
     }
   }
 
+  async markRead(req, res) {
+    try {
+      const { id } = req.params;
+      const { action } = req.body;
+      const userId = req.user.userId;
+
+      if (!['read', 'favorite'].includes(action)) {
+        return res.status(400).json({
+          error: 'Bad request',
+          details: 'Invalid action specified',
+          code: 'NEWS_INVALID_ACTION'
+        });
+      }
+
+      const article = await Article.findOneAndUpdate(
+        { articleId: id, userId },
+        { [action]: true },
+        { upsert: true, new: true }
+      );
+
+      res.json({
+        message: `Article marked as ${action}`,
+        articleId: article.articleId,
+        [action]: true
+      });
+    } catch (error) {
+      console.error('Mark article error:', {
+        message: error.message,
+        stack: error.stack,
+        timestamp: new Date().toISOString()
+      });
+      
+      res.status(500).json({
+        error: 'Failed to mark article',
+        details: 'Internal server error',
+        code: 'NEWS_MARK_FAILED'
+      });
+    }
+  }
+
   async markArticle(req, res) {
     try {
       const { id } = req.params;
@@ -143,7 +183,7 @@ class NewsController {
 
   async getMarkedArticles(req, res) {
     try {
-      const { type } = req.params;
+      const { type } = req.query;
       const userId = req.user.userId;
 
       if (!['read', 'favorite'].includes(type)) {

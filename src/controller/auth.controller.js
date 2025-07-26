@@ -134,7 +134,25 @@ class AuthController {
         });
       }
       
-      const decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
+      let decoded;
+      try {
+        decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
+      } catch (err) {
+        return res.status(401).json({
+          error: 'Invalid token',
+          details: 'Token verification failed',
+          code: 'AUTH_INVALID_TOKEN'
+        });
+      }
+
+      if (!decoded || !decoded.userId) {
+        return res.status(401).json({
+          error: 'Invalid token',
+          details: 'Malformed token payload',
+          code: 'AUTH_INVALID_TOKEN_PAYLOAD'
+        });
+      }
+
       const newToken = jwt.sign(
         { userId: decoded.userId },
         process.env.JWT_SECRET,
@@ -198,6 +216,7 @@ class AuthController {
 
       const updateData = { username, email };
       if (password) {
+        // Hash the password before updating
         updateData.password = await bcrypt.hash(password, 10);
       }
 

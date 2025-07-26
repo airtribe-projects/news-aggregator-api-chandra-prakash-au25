@@ -26,9 +26,11 @@ module.exports = (req, res, next) => {
       });
     }
     
+    // Avoid logging sensitive user info
     req.userId = decoded.userId;
     next();
   } catch (error) {
+    // Log error for diagnostics, but avoid leaking sensitive info to client
     console.error('Authentication error:', {
       message: error.message,
       stack: error.stack,
@@ -52,9 +54,9 @@ module.exports = (req, res, next) => {
     }
     
     res.status(401).json({
-      error: 'Authentication failed',
-      details: error.message,
+      error: 'Authentication failed due to an unexpected error',
       code: 'AUTH_FAILURE'
     });
   }
 };
+
